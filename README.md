@@ -8,7 +8,7 @@
 
 Aral-AI tackles the problem of information overload in student modules. Instead of CTRL+F searching through massive PDFs, students can chat with their materials.
 
-Uniquely, Aral-AI features Cultural Localization. It doesn't just answer; it adopts the persona of a friendly Filipino tutor, capable of explaining complex academic concepts in Taglish, Cebuano (Bisaya), or Formal English. It leverages Groq's high-speed inference to provide near-instant feedback.
+Uniquely, Aral-AI features **Cultural Localization**. It doesn't just answer; it adopts the persona of a friendly Filipino tutor, capable of explaining complex academic concepts in Taglish, Cebuano (Bisaya), or Formal English. It leverages Groq's high-speed inference to provide near-instant feedback.
 
 ## 🏗️ Architecture
 
@@ -43,13 +43,13 @@ graph TD
 - Document Processing: PyPDFLoader & RecursiveCharacterTextSplitter.
 
 ## 🚀 Features
-- Context-Aware Answers: Retrieves specific information strictly from the uploaded module to prevent hallucinations.
-- Dynamic Personas:
-  - 🇵🇭 Taglish (Default): Friendly, "Explain Like I'm 5" tone.
-  - 🏝️ Cebuano (Bisaya): Localized dialect support for Visayas/Mindanao students.
-  - 🎓 Formal English: Standard academic tone.
-- Hybrid Deployment: Runs as a Web App (app_ui.py) or a lightweight Terminal App (app_terminal.py).
-- Memory Efficient: Uses tempfile processing to handle uploads without cluttering local storage.
+- **Context-Aware Answers:** Retrieves specific information strictly from the uploaded module to prevent hallucinations.
+- **Dynamic Personas:**
+  - 🇵🇭 **Taglish (Default):** Friendly, "Explain Like I'm 5" tone.
+  - 🏝️ **Cebuano (Bisaya)**: Localized dialect support for Visayas/Mindanao students.
+  - 🎓 **Formal English:** Standard academic tone.
+- **Hybrid Deployment:** Runs as a Web App (app_ui.py) or a lightweight Terminal App (app_terminal.py).
+- **Memory Efficient:** Uses tempfile processing to handle uploads without cluttering local storage.
 
 ## 🛠️ Getting Started
 **Prerequisites**
